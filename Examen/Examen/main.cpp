@@ -11,57 +11,6 @@ typedef struct Node {
 }*node;
 
 
-//struct Lista {
-//	node primero;
-//
-//	void insertar(int val) {
-//		node newNode = new Node;
-//		newNode->value = val;
-//
-//		if (!primero) {
-//			newNode->last = 0;
-//			primero = newNode;
-//			return;
-//		}
-//		else {
-//			node tmp = primero;
-//			while (tmp->next) tmp = tmp->next;
-//			newNode->last = tmp;
-//			tmp->next = newNode;
-//			return;
-//		}
-//
-//	}
-//
-//	void looper() {
-//		node tmp = primero;
-//		
-//	}
-//
-//	Lista operator+(const Lista &a, const Lista &b) {
-//		vector<int> listaa;
-//		Lista tmp;
-//		node tmp = a.primero;
-//
-//		while (tmp && tmp->next) {
-//			listaa.push_back(tmp->value);
-//			tmp = tmp->next;
-//		}
-//
-//		node tmp1 = b.primero;
-//
-//		while (tmp && tmp->next) {
-//			listaa.push_back(tmp1->value);
-//			tmp1 = tmp->next;
-//		}
-//
-//
-//		return tmp;
-//
-//	}
-//
-//};
-
 class Lista{
 	
 	friend Lista operator+(const Lista&a, const Lista &b);
